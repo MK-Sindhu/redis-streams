@@ -1,0 +1,26 @@
+# dependencies
+node_modules/
+
+# env files
+.env
+.env.*
+!.env.example
+
+# build output
+dist/
+build/
+*.tsbuildinfo
+
+# logs
+logs/
+*.log
+
+# redis dumps
+dump.rdb
+appendonly.aof
+
+# editor / OS
+.cursor/
+.vscode/
+.idea/
+.DS_Store
